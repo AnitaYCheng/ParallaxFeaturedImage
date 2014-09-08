@@ -14,6 +14,6 @@ The "parallaxfunction.php" is a snippet that needs to go into your child theme's
 
 If you don't want a particular page or post (or category, or post type, etc) to have this feature, just use <a href="http://codex.wordpress.org/Conditional_Tags">conditional tags</a> around the function. Will have more details about this in a blog post soon.
 
-"parallaxstyle.css" is a snippet that styles the new sections. Insert into your child theme's style.css file.
+"parallaxstyle.css" is a snippet that styles the new sections. Insert into your child theme's style.css file, and modify as needed.
 
 I've also included the original jQuery Parallax Scrolling plugin (<a href="http://ianlunn.co.uk/plugins/jquery-parallax/">made by Ian Lunn</a>) and the JavaScript calls in a "js" folder. Put the "js" folder into your child theme folder.

@@ -8,7 +8,7 @@
  add_action( 'wp_enqueue_scripts', 'add_parallax_scripts' );
  
 
-// Adds parallax to all featured images, adds margin to content if there is no featured image
+// Adds parallax to all featured images, adds top margin if there is no featured image
 	add_action ('genesis_before','use_parallax');
 	function use_parallax() { 
 		if ( has_post_thumbnail() ) {
@@ -22,3 +22,15 @@
 	          		}
 		
 		}
+
+// * Add custom body class to the head if page has post thumbnail to customize entry title styling
+add_filter( 'body_class', 'parallax_body_class' );
+function parallax_body_class( $classes ) {
+	if ( has_post_thumbnail() ) {
+		$classes[] = 'parallax-page';
+	}
+	else {
+		$classes[] = '';
+	}
+		return $classes;
+}

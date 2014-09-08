@@ -9,10 +9,40 @@
     background-color: #000;
 }
 
+.parallax-page .entry-title {
+	position:absolute;
+	top:15rem;
+	left:5rem;
+	background-color: #fff;
+	background-color:rgba(255, 255, 255, 0.7);
+	padding:10px 0;
+	padding:1rem 0;
+	width:40%;
+	text-align: center;
+}
+
+/* Disables parallax headline style for WooCommerce product pages - can modify for your own use */
+.parallax-page .woocommerce div.product .product_title, .woocommerce #content div.product .product_title, .woocommerce-page div.product .product_title, .woocommerce-page #content div.product .product_title {
+	position:relative!important;
+	top:0!important;
+	left:0!important;
+	clear:none;
+	margin-bottom:1rem;
+	padding:0;
+	width:auto;
+	text-align: left;
+}
+
 
 
 @media only screen and (max-width:767px) {  
 	 .parallax {
 	 	height: 500px;
+	}
+
+	.parallax-page .entry-title {
+		width:100%;
+		top:10rem;
+		left:0;
 	}
 }
