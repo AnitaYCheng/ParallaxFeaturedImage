@@ -14,8 +14,9 @@
 		if ( has_post_thumbnail() ) {
 			$parallaxImage = wp_get_attachment_image_src( get_post_thumbnail_id( $post->ID ), 'large'); 
 		?>
-			<section class="parallax" id="section_<?php echo the_ID(); ?>" style="background: url('<?php echo $parallaxImage[0]; ?>') no-repeat fixed;"></section>
-              	  <?
+		<div class="parallax" id="section_<?php echo the_ID(); ?>" style="background: url('<?php echo $parallaxImage[0]; ?>') no-repeat fixed; min-height:700px; background-size:cover; -webkit-background-size: cover;
+    -moz-background-size: cover; -o-background-size: cover; background-color: #000;"></div>
+                  	 <?
               	 }
               	else {
 	          		echo '<div class="top_margin">&nbsp;</div>';
