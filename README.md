@@ -17,7 +17,7 @@ Inspired by <a href="http://wevostudio.com/wordpress-parallax-implementation/">W
 # Setup
 The "parallaxfunction.php" is a snippet that needs to go into your child theme's functions.php file. I'll likely implement this as a plugin in the future, but the snippet is very short so it's not much fuss.
 
-If you don't want a particular page or post (or category, or post type, etc) to have this feature, just use <a href="http://codex.wordpress.org/Conditional_Tags">conditional tags</a> around the function. Will have more details about this in a blog post soon.
+If you don't want a particular page or post (or category, or post type, etc) to have this feature, just use <a href="http://codex.wordpress.org/Conditional_Tags">conditional tags</a> around the function.
 
 "parallaxstyle.css" is a snippet that styles the new sections. Insert into your child theme's style.css file, and modify as needed.
 
