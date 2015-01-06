@@ -4,9 +4,9 @@ ParallaxFeaturedImage
 Make any featured image in WordPress Genesis the parallax scrolling background for your post or page. A top margin is added if there is no featured image and you have a fixed navigation bar like I did.
 
 ### Demo
-A working demo can be seen on <a href=“http://www.flyingeyes.biz”>FlyingEyes.biz</a>, which is what I made this solution for.
+A working demo can be seen on <a href="http://www.flyingeyes.biz">FlyingEyes.biz</a>, which is what I made this solution for.
 
-More detailed step-by-step instructions can be found <a href=“http://anitacheng.com/parallax-scrolling-featured-image-in-wordpress-genesis”>on my blog.</a>
+More detailed step-by-step instructions can be found <a href="http://anitacheng.com/parallax-scrolling-featured-image-in-wordpress-genesis">on my blog.</a>
 
 ### What problem this solves
 If you want to easily change out the background image for a parallax scrolling page or post, you need to get this!
